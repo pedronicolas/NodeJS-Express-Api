@@ -55,5 +55,19 @@ app.post('/movies/create',function(req,res){
     res.send(movies);
 })
 
+
+app.put('/movies/update',function(req,res){
+    //Tittle
+    var tittle = req.body.tittle;
+    for(var i=0;i<movies.length;i++){
+        var movie = movies[i];
+        if(movie.tittle === tittle){
+            movie.genere = req.body.genere;
+            break;
+        }
+    }
+    res.send(movies);
+})
+
 //Start the server
 app.listen(8080);
