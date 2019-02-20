@@ -69,5 +69,18 @@ app.put('/movies/update',function(req,res){
     res.send(movies);
 })
 
+app.delete('/movies/delete',(req,res)=>{
+    //Tittle: Avatar
+    var tittle = req.body.tittle;
+    for(var i=0;i<movies.length;i++){
+        var movie = movies[i];
+        if(movie.tittle === tittle){
+           movies.splice(i,1);
+            break;
+        }
+    }
+    res.send(movies);
+})
+
 //Start the server
 app.listen(8080);
