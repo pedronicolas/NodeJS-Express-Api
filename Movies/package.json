@@ -1,0 +1,17 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "lista de las peliculas favoritas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

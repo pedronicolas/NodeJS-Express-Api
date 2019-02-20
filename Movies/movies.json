@@ -1,0 +1,31 @@
+[{
+        "tittle": "Avatar",
+        "genere": "Sci-Fi",
+        "grossing": 2787965087,
+        "year": 2009
+    },
+    {
+        "tittle": "Titanic",
+        "genere": "Drama",
+        "grossing": 2787965079,
+        "year": 1997
+    },
+    {
+        "tittle": "Star Wars",
+        "genere": "Sci-Fi",
+        "grossing": 2787964587,
+        "year": 2015
+    },
+    {
+        "tittle": "Jurasic World",
+        "genere": "Sci-Fi",
+        "grossing": 2787961205,
+        "year": 2015
+    },
+    {
+        "tittle": "The Avengers",
+        "genere": "Sci-Fi",
+        "grossing": 2787967895,
+        "year": 2012
+    }
+]
